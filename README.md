@@ -24,6 +24,12 @@ En el notebook **Palermos_2**:
 - Hace ´sjoin´ para ubicar los deptos en los barrios que componen Palermo.
 - Devuelve *palermo_deptos_final.csv* con la nueva columna con el barrio
  
+En el notebook **Model_AT**:
+
+- Tomo el csv y arme 2 datasets, uno sin distinción de barrios y el otro con los barrios separados  
+- La variable categórica *antiguedad* la discretizé en ambos datasets, eliminando la primera columna  
+- En el segundo dataset están discretizados *antiguedad* y *barrio*
+
 
 **Para pensar:** 
 
