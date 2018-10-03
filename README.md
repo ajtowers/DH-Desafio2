@@ -1,6 +1,6 @@
 # DH-Desafio 2
 
-**Actualización:  23/9**
+**Actualización:  3/10**
 
 - *properatti_geo.csv_V2* no tiene la columna de habitaciones_final, con lo cual volví a poner en el repositorio el *properatti_geo.csv*  
 
