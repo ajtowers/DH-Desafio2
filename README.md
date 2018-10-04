@@ -1,6 +1,6 @@
 # DH-Desafio 2
 
-**Actualización:  23/9**
+**Actualización:  3/10**
 
 - *properatti_geo.csv_V2* no tiene la columna de habitaciones_final, con lo cual volví a poner en el repositorio el *properatti_geo.csv*  
 
@@ -24,19 +24,20 @@ En el notebook **Palermos_2**:
 - Hace ´sjoin´ para ubicar los deptos en los barrios que componen Palermo.
 - Devuelve *palermo_deptos_final.csv* con la nueva columna con el barrio
  
-En el notebook **Model_AT**:
+En el notebook **LinearRegression, LassoRegression, RidgeRegression**:
 
-- Tomo el csv y arme 2 datasets, uno sin distinción de barrios y el otro con los barrios separados  
-- La variable categórica *antiguedad* la discretizé en ambos datasets, eliminando la primera columna  
-- En el segundo dataset están discretizados *antiguedad* y *barrio*
+- Tomo el csv, y se subsetea sacando algunas columnas sin uso.
+- Se discretiza *antiguedad* y *barrio*
+- Se corren varios modelos de LinearRegression, LassoRegression y RidgeRegression
 
+- Los resultados no llegan a un R2=0.5 como en el notebook de Juan.
 
-**Para pensar:** 
-
-- corr(ambientes, superfie) = 0.78  Evaluar si dejamos *ambientes* como variable o nos quedamos solo con *superficie* (~300 datapoints mas)
+En el notebook **Model_JM**
+- Los resultados son mejores.
 
 
 **Pendientes:**
 
-- Modelos
+- Definir que modelos presentamos. 
+- Powerpoint
 
